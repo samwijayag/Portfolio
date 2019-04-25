@@ -213,11 +213,16 @@ h4{
 /*-----------GRID---------------*/
 img{
 	width: 350px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
 }
 
 .box {
     padding: 32px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .projects-grid{
@@ -240,8 +245,24 @@ img{
     text-decoration: none;
 }
 
-.fa-github{
+.project-text .fa-github{
 	padding: 10px;
 	font-size: 30px;
 }
 
+
+/*=================================================
+--------------------SKILL SECTION----------------------
+=================================================*/
+
+.skill-icon-container{
+	display: flex;
+	justify-content: center;
+	color: #555;
+}
+.skill{
+	margin: 1.2rem;
+	height: 10px;
+	width: auto;
+	font-size: 4rem;	
+}
