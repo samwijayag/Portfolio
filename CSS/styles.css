@@ -3,6 +3,7 @@
 .container{
 	max-width: 1400px;
 	margin: 0 auto;
+	background-color: white;
 }
 
 body{
@@ -60,6 +61,7 @@ h4{
     font-size: 15px;
     color: #171414;
 }
+
 
 /*=================================================
 --------------------home SECTION-----------------------
@@ -215,9 +217,7 @@ h4{
 }
 
 /*-----------GRID---------------*/
-.projects{
-	height: 100vh;
-}
+
 img{
 	width: 350px;
 	transition: all 1s;
@@ -291,6 +291,53 @@ img:hover{
 }
 
 /*=================================================
---------------------FOOTER-SECTION----------------------
+--------------------CONTACT-SECTION----------------------
 =================================================*/
+
+.contact {
+	padding: 100px;
+	margin-top: 40px;
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.contact-list h1{
+	font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.contact-list h3{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.contact-list h4{
+	margin: 20px 0;
+}
+
+.contactIcon{
+	font-size: 2em;
+	margin-left:10px;
+	color: #555;
+}
+
+
+.contact i{
+	font-size: 40px;
+	color: #777;
+}
+
+/*=================================================
+--------------------fOOTER----------------------
+=================================================*/
+
+footer{
+	display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 30px;
+    color: white;
+    font-size: 17px;
+}
 
