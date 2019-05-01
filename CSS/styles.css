@@ -23,7 +23,11 @@ body{
 h2:after {
     display: block;
     height: 2px;
+<<<<<<< HEAD
     background-color:#ba6102d1;
+=======
+    background-color:#ffa333 ;
+>>>>>>> 3c9de0539fedcfce6b970f46bde5086fc9df26c2
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -105,7 +109,11 @@ h4{
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 700;
+<<<<<<< HEAD
     color:#ba6102d1;
+=======
+    color: #e7bc96;
+>>>>>>> 3c9de0539fedcfce6b970f46bde5086fc9df26c2
     margin-bottom: 2rem;
     z-index: 1;
 }
@@ -219,6 +227,7 @@ h4{
 /*-----------GRID---------------*/
 
 img{
+<<<<<<< HEAD
 	width: 333px;
 	transition: all 1s ease-out;
 	border-radius: 12px;
@@ -240,6 +249,22 @@ img:hover{
 
 .box:hover {
    	transform: scale(0.97)
+=======
+	width: 350px;
+	transition: all 1s;
+	border-radius: 22px;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+.box {
+    padding: 36px;
+    margin: 15px;
+    background: #e5b8b8;
+    border-radius: 50px;
+>>>>>>> 3c9de0539fedcfce6b970f46bde5086fc9df26c2
 }
 
 .projects-grid{
