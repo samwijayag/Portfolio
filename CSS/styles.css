@@ -1,4 +1,6 @@
 
+/*//----colors-----//*/
+/*main : #ba6102d1*/
 
 .container{
 	max-width: 1400px;
@@ -117,17 +119,26 @@ h4{
 
 .home .info h1{
 	position: relative;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color:#ba6102d1;
+    color:#777;
     margin-bottom: 2rem;
     z-index: 1;
 }
 
+.home .info span{
+	color: #ba6102d1;
+	font-size: 70px;
+}
+
+.home .info .last-name{
+	margin-left: 10px;
+}
+
 .home .info p{
 	position: relative;
-    font-size: 18px;
+    font-size: 30px;
     max-width: 600px;
     color: #777;
     text-transform: capitalize;
@@ -159,6 +170,22 @@ h4{
 	letter-spacing: 2px
 }
 
+.resume-btn{
+	position: relative;
+	color: #16171b;
+	margin-left: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+	letter-spacing: 2px
+}
+
+.resume-btn:hover{
+	color: #ba6102d1;
+	border-bottom: 2px solid #ba6102d1;
+}
 
 
 /*=================================================
@@ -265,13 +292,18 @@ img:hover{
     grid-gap: 20px;
 }
 
+.project-text h4{
+	align-self: start;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 7px;
+}
 
 .project-text p{
 	align-self: start;
-	font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
-    margin-top: 12px;
-    border-bottom: 1px solid black;
+    margin-top: 21px;
 }
 
 .github-link{
@@ -280,8 +312,11 @@ img:hover{
 }
 
 .project-text .fa-github{
-	padding: 10px;
-	font-size: 30px;
+	font-size: 33px;
+}
+
+.project-text .fa-github:hover{
+	color: #ba6102d1;
 }
 
 
@@ -346,10 +381,19 @@ img:hover{
 	color: #555;
 }
 
+.contactIcon:hover{
+	color: #ba6102d1;
+}
+
 
 .contact i{
 	font-size: 40px;
 	color: #777;
+}
+
+.contact i:hover{
+	font-size: 40px;
+	color: #ba6102d1;
 }
 
 /*=================================================
