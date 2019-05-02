@@ -12,11 +12,10 @@ body{
 
 .title-h2{
 	font-size: 2rem;
-	font-weight: 600;
+	color: #777;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 20px;
 	margin-bottom: 30px;
 }
 
@@ -27,7 +26,7 @@ h2:after {
     content: " ";
     width: 100px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 h4{
@@ -58,10 +57,26 @@ h4{
 .header li a{
 	text-decoration: none;
 	margin: 30px 0px;
-    font-size: 15px;
+    font-size: 14px;
     color: #171414;
 }
 
+.header li a:hover{
+    color: #ba6102d1;
+}
+
+/*----------Sticky Nav-----------*/
+
+.sticky{
+	position: fixed;
+    right: 73px;
+    left: 73px;
+    margin: -14px;
+    color: #ba6102d1;
+    background-color: #fff;
+    box-shadow: 0 2px 0px #ba6102;
+    z-index: 9999;
+}
 
 /*=================================================
 --------------------home SECTION-----------------------
@@ -80,7 +95,7 @@ h4{
 	position: relative;
 }
 
-.home .info .square{
+/*.home .info .square{
 	border: 20px dotted #2f3438;
     width: 714px;
     height: 377px;
@@ -98,7 +113,7 @@ h4{
     z-index: -1;
     top: -35%;
     left: -112%;
-}
+}*/
 
 .home .info h1{
 	position: relative;
@@ -120,7 +135,7 @@ h4{
     z-index: 1;
 }
 
-.home .info a{
+.work-btn{
 	position: relative;
 	color: #16171b;
 	font-weight: 600;
@@ -132,14 +147,14 @@ h4{
 	letter-spacing: 2px
 }
 
-.home .info a:hover{
+.work-btn:hover{
 	position: relative;
-	color: #7e31b8;
+	color: #ba6102d1;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding-bottom: 5px;
-	border-bottom: 2px solid #7e31b8;
+	border-bottom: 2px solid #ba6102d1;
 	z-index: 1;
 	letter-spacing: 2px
 }
@@ -185,7 +200,7 @@ h4{
     padding: 5px;
     z-index: 1;
 }
-.about a{
+.contact-btn{
 	position: relative;
 	color: #16171b;
 	font-weight: 600;
@@ -197,14 +212,14 @@ h4{
 	letter-spacing: 2px
 }
 
-.about a:hover {
+.contact-btn:hover {
 	position: relative;
-	color: #7e31b8;
+	color: #ba6102d1;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding-bottom: 5px;
-	border-bottom: 2px solid #7e31b8;
+	border-bottom: 2px solid #ba6102d1;
 	z-index: 1;
 	letter-spacing: 2px
 }
@@ -218,6 +233,7 @@ h4{
 
 /*-----------GRID---------------*/
 
+
 img{
 	width: 333px;
 	transition: all 1s ease-out;
@@ -227,6 +243,7 @@ img{
 
 img:hover{
 	opacity:1 !important;
+	transform: translate(0, -10px)
 }
 
 .box {
@@ -302,7 +319,7 @@ img:hover{
 =================================================*/
 
 .contact {
-	padding: 100px;
+	padding: 53px;
 	margin-top: 40px;
 	background-color: white;
 	text-align: center;
@@ -311,7 +328,7 @@ img:hover{
 
 .contact-list h1{
 	font-size: 2em;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .contact-list h3{
