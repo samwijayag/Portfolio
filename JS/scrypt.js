@@ -2,15 +2,15 @@ $(document).ready(function(){
 
 
 
-	$('.contact').waypoint(function(direction){
-			if(direction === "down") {
-				$('nav').addClass('sticky')
-			}else{
-				$('nav').removeClass('sticky')
-			}
-		},{
-			offset:'50%'
-	});
+	// $('.contact').waypoint(function(direction){
+	// 		if(direction === "down") {
+	// 			$('nav').addClass('sticky')
+	// 		}else{
+	// 			$('nav').removeClass('sticky')
+	// 		}
+	// 	},{
+	// 		offset:'50%'
+	// });
 
 	$(".work-btn").click(function(){
 			$('html,body').animate({scrollTop:$('.projects')
