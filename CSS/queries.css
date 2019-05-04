@@ -1,0 +1,209 @@
+
+
+/*big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+	/*--skills--*/
+	.container{
+		max-width: 1100px;
+	}
+
+	.skills {
+	    height: 47vh;
+	    padding: 259px;
+	    margin-top: 62px;
+	}
+
+}
+
+/*small tablet to big tablets from 768-1023pxx */
+@media only screen and (max-width: 1023px) {
+
+	.square2 {
+	    width: 309px;
+	    height: 329px;
+	    left: 56%;
+	}
+
+	.color-box{
+		padding: 31px;
+	}
+
+	.about-info h1 {
+		margin-right: 0px;
+	    margin-bottom: 7px;
+	    font-size: 17px;
+	    padding: 23px;
+	}
+	
+	.contact-btn{
+		font-size: 11px;
+		padding-bottom: 5px;
+		margin-left: 25px;
+	}
+
+	.skills{
+		height: 84vh;
+		padding: 92px;
+    	margin-top: 62px;
+	}
+
+	.projects-grid{
+		margin-top: -38px;
+	}
+	
+	img{
+		width: 333px;
+		height: 179px;
+	}
+
+	.project-text{
+		font-size: 14px;
+	}
+
+	.project-text .fa-github{
+	font-size: 33px;
+}
+	
+	.box{
+		width: 385px;
+		padding: 27px;
+		height: 432px;
+		margin: 45px;
+	}
+	
+	.contact{
+		margin-top: 0px;
+	}
+
+}
+
+/*small phones to small tablets from 481-767px */
+@media only screen and (max-width: 767px) {
+
+	.title-h2{
+		font-size: 16px;
+	}
+
+	h2:after {
+	    height: 1px;
+	    width: 84px;
+	    margin-top: 7px;
+	}
+
+	.header li{
+		padding: 13px;
+	}
+
+	.header li a{
+		margin: 13px 0px;
+	    font-size: 12px;
+	}
+	
+	.home{
+		height: 87vh;
+	}
+	
+	.home .info {
+		font-size: 9px;
+	}
+
+	.square {
+	    border: 13px solid #8f8f8f1f;
+	    border-radius: 50%;
+	    width: 193px;
+	    height: 193px;
+	    position: absolute;
+	    z-index: 0;
+	    top: 38%;
+	    left: 8%;
+	}
+
+	.square2 {
+		border: 13px solid #ba610217;
+	    width: 183px;
+	    height: 158px;
+	    left: 48%;
+	    top: -27px;
+	}
+
+	.home .info .js--wp-5 {
+	    font-size: 26px;
+	}
+
+	.home .info .js--wp-6 {
+	    font-size: 26px;
+	}
+
+	.home .info span {
+	    font-size: 30px;
+	}
+
+	.home .info p {
+	    font-size: 19px;
+	    margin-bottom: 2rem;
+	}
+
+	/*about*/
+	.about-info h1 {
+	    margin-right: -62px;
+	    margin-bottom: 15px;
+	    font-size: 14px;
+	    padding: 0px;
+	}
+
+	.color-box{
+		padding: 35px;
+		background-position: left;
+	}
+
+	.contact-btn {
+		font-size: 8px;
+		padding-bottom: 3px;
+		margin-left: 0px;
+	}
+
+	.skills {
+	    height: 100vh;
+	    padding: 73px;
+	    margin-top: 29px;
+	}
+
+	img {
+	    width: 263px;
+	    height: 139px;
+	}
+
+	.box {
+	    width: 311px;
+	    padding: 25px;
+	    height: 424px;
+	    margin: 44px;
+	}
+/*small phones from 0-480px */
+@media only screen and (max-width: 480px) {
+	
+	.square2 {
+	    left: -23%;
+	    top: -12px;
+	}
+
+	.color-box{
+		background-image: none;
+	}
+
+	.skills {
+		padding: 42px;
+	}
+
+	img {
+	    width: 226px;
+	    height: 131px;
+	}
+	
+	.box {
+	    width: 255px;
+	    padding: 14px;
+	    height: 380px;
+	    margin: 49px;
+	}
+}
