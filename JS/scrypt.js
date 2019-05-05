@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-
+	$(this).scrollTop(0);
 	// $('.contact').waypoint(function(direction){
 	// 		if(direction === "down") {
 	// 			$('nav').addClass('sticky')
@@ -77,6 +77,7 @@ $(document).ready(function(){
     	offset:'100%'
     })
    
+   	$(this).scrollTop(0);
    
 
 })
