@@ -462,7 +462,8 @@ footer{
 
 .scrollup {
     width: 41px;
-    height: 292px;
+    top: 45%;
+    height: 49px;
     position: fixed;
     bottom: 50px;
     right: 64px;
@@ -481,3 +482,4 @@ footer{
 	box-shadow: 0 0 0 rgba(204,169,44, 0.4);
 	animation: pulse 1s infinite;
 }
+

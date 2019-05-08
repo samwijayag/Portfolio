@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 
-	$(this).scrollTop(0);
 	// $('.contact').waypoint(function(direction){
 	// 		if(direction === "down") {
 	// 			$('nav').addClass('sticky')
