@@ -182,8 +182,13 @@
 
 	.color-box{
 		background-image: none;
+		width: 90%;
+		margin-left: 22px;
 	}
 
+	.skills{
+		padding: 52px;
+	}
 
 	img {
 	    width: 226px;
