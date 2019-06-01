@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="./Images/icons/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="./Images/icons/favicon.ico" type="image/x-icon">	
+	<link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./images/icons/favicon.ico" type="image/x-icon">	
 	<link href="https://fonts.googleapis.com/css?family=Aleo:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./CSS/reset.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
@@ -39,21 +39,27 @@
 					href="#">My Work</a>
 					<a 
 					class="resume-btn" 
-					href="#">Resume</a>
+					href="https://drive.google.com/open?id=1dJaP06IBkBymjjTq1JCsyJFAD6p0T3EA" target="blank">Resume</a>
 				</div>		
 		</section>
 
-		<section class="about js--wp-2 " id="About">	
+		<section class="about" id="About">	
 				<div class="title-h2">
 					<h2>About Me</h2>
 				</div>	
 				
-				<div class="color-box ">
-					<div class="about-info">
-						<h1>Hi, my name is Sam. I am an aspiring web develper based in the Bay area. I am always learning new things and improving myself, and would love to work for and build things for a great company. Please take a look at my projects below, and feel free to click the contact button below so we can connect! </h1>
+				<div class="color-box">
+					<div class="about-info js--wp-2 ">
+						<h1>Hi, I am Sam <br> A Front end software engineer focused on creating responsive, simple and clean, cross browser
+web applications, utilizing front end technologies like React, Javascript, Html , CSS. Fast learner
+with great time management skills. Seeking to
+bring value to and become part of a great company.</h1>
 
 					</div>
-					<a class="contact-btn" href="#">Contact me</a>
+					<div class='about-btn js--wp-4'>
+						<a class="contact-btn" href="#">Contact me</a>
+						<a class="github-btn" href="https://github.com/samwijayag" target="blank">My github</a>
+					</div>
 				</div>		
 		</section>
 		<section class="skills js--wp-3" id="Skills">
@@ -63,13 +69,13 @@
 			<ul>
 				<li>HTML5</li>
 				<li>CSS3</li>
-				<li>Bootstrap</li>
-				<li>Javascript</li>
-				<li>JavaScript ES6</li>
-				<li>jquery</li>
-				<li>React</li>
+				<li class='pulse'>React</li>
+				<li class='pulse'>Javascript</li>
+				<li>Bootstrap</li>		
+				<li>ES6</li>
+				<li>jquery</li>			
 				<li>NPM</li>
-				<li>Nodejs</li>
+				<!-- <li>Nodejs</li> -->
 				<li>GIT</li>
 				<li>github</li>
 			</ul>
@@ -79,21 +85,37 @@
 					<h2>Projects</h2>
 			</div>	
 			<div class="projects-grid ">
-				<div class="box">
-					<a href="https://samwijayag.github.io/Weather_App/" target="_blank">
-						<img alt="project-img" src="images/projects/weather_app.png">
+					<div class="box">
+					<a href="https://mysterious-sands-38691.herokuapp.com" target="_blank">
+						<img alt="project-img" src="images/projects/food_detect.png">
 					</a>
 					<div class="project-text">
 						<h4>
-							<a class="github-link" href="https://github.com/samwijayag/Weather_App" target="_blank">
+							<a class="github-link" href="https://github.com/samwijayag/FoodDetect__app" target="_blank">
 								<i class="pulse fab fa-github"></i>
 							</a>
-							<a href="https://samwijayag.github.io/Weather_App/" target="blank">Weather App</a>
+							<a href="https://mysterious-sands-38691.herokuapp.com/" target="blank">Food Detect</a>
 						</h4>
-						<p>A simple weather app made with javascript, <span>html</span> and 
-						<span>CSS3</span>. Connected to a weather <span>API</span>, simply put in the zipcode or location to view the current temperature/humidity/wind-speed of that location.</p>
+						<p>This App detects food items and ingredients on any food image url. <br> 
+						App made using <span>React</span>. When a user submits an image url, the app fetches data from a machine learning <span>API</span> (Clarifai) then outputs results on the screen. </p>
 					</div>
 				</div>
+				<div class="box">
+					<a href="https://samwijayag.github.io/User-generator" target="_blank">
+						<img alt="project-img" src="./images/projects/usergen.png">
+ 					</a>
+					<div class="project-text">
+						<h4>
+							<a class="github-link" href="https://github.com/samwijayag/User-generator" target="_blank">
+								<i class="pulse fab fa-github"></i>
+							</a>
+							<a href="https://samwijayag.github.io/User-generator" target="blank">UserBase</a>
+						</h4>
+						<p>A random user generator app made with <span>React</span>, and Tachyons for styling. Fethes random users from a public <span>API</span>. Used react lifecyle methods, props and state. Search option filters users by name input.
+						</p>
+					</div>
+				</div>
+			
 				<div class="box">
 					<a href="https://samwijayag.github.io/Swole-mate/" target="_blank">
 						<img alt="project-img" src="./images/projects/swole-mate.png ">
@@ -105,26 +127,10 @@
 							</a>
 							<a href="https://samwijayag.github.io/Swole-mate/" target="blank">Swole mate</a>
 						</h4>
-						<p>A startup website made with <span>jquery</span>, <span>html5</span>, <span>CSS3</span> utilising the <span>css grid</span> system. Website fully responsive. <br>
-						Todo: fix scroll </p>
+						<p>A startup landing page made with <span>jquery</span>, <span>html5</span>, <span>CSS3</span> utilising the <span>CSS grid</span>. Website fully responsive. <br></p>
 					</div>
 				</div>
-				<div class="box">
-					<a href="https://github.com/samwijayag/Chat_app" target="_blank">
-						<img alt="project-img" src="./images/projects/chat_app.png">
- 					</a>
-					<div class="project-text">
-						<h4>
-							<a class="github-link" href="https://github.com/samwijayag/Chat_app" target="_blank">
-								<i class="pulse fab fa-github"></i>
-							</a>
-							<a href="https://github.com/samwijayag/Chat_app" target="blank">Chat App</a>
-						</h4>
-						<p>A chat app made with <span>React</span> for a project done on scrimba. This app was build using the <span>ChatKit API</span>. <br>
-						Todo: add create room function,
-							add clear screen </p>
-					</div>
-				</div>
+				
 				<div class="box">
 					<a href="https://github.com/samwijayag/Meme-Generator" target="_blank">
 						<img alt="project-img" src="images/projects/meme_gen.png">
@@ -140,26 +146,27 @@
 					</div>
 				</div>
 				<div class="box">
-					<a href="https://samwijayag.github.io/ToDoList-jQuery/" target="_blank">
-						<img alt="project-img" src="images/projects/todo-list.png" >
+					<a href="http://www.samwijayag.com/WeatherApp/" target="_blank">
+						<img alt="project-img" src="images/projects/weather_app.png">
 					</a>
 					<div class="project-text">
 						<h4>
-							<a class="github-link" href="https://github.com/samwijayag/ToDoList-jQuery" target="_blank">
+							<a class="github-link" href="https://github.com/samwijayag/Weather_App" target="_blank">
 								<i class="pulse fab fa-github"></i>
 							</a>
-							<a href="https://samwijayag.github.io/ToDoList-jQuery/" target="blank">ToDo List</a>
+							<a href="https://samwijayag.github.io/Weather_App/" target="blank">Weather App</a>
 						</h4>
-						<p>A todo list made with <span>jquery</span> for a course on udemy by colt-steele. Learned basic <span>jquery,html and css</span>.  </p>
+						<p>A simple weather app made with javascript, <span>html</span> and 
+						<span>CSS3</span>. Connected to a weather <span>API</span>, simply put in the zipcode or location to view the current temperature/humidity/wind-speed of that location.</p>
 					</div>
 				</div>
 				<div class="box">
-					<a href="#" target="_blank">
+					<a href="#">
 						<img alt="project-img" src="images/projects/portfolio.png" >
 					</a>
 					<div class="project-text">
 						<h4>
-							<a class="github-link" href="https://github.com/samwijayag/Portfolio" target="_blank">
+							<a class="github-link" href="https://github.com/samwijayag/Portfolio">
 								<i class="pulse fab fa-github"></i>
 							</a>
 							<a href="https://github.com/samwijayag/Portfolio" target="blank">

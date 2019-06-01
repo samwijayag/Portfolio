@@ -7,6 +7,20 @@
 	.container{
 		max-width: 1100px;
 	}
+
+	.contact-btn{
+		font-size: 11px;
+		left: 7%;
+		padding-bottom: 5px;
+		margin-left: 25px;
+	}
+
+	.github-btn{
+		font-size: 11px;
+		left: 8%;
+		padding-bottom: 5px;
+		margin-left: 25px;
+	}
 	
 	.scrollup{
 		position: unset;
@@ -35,6 +49,14 @@
 	
 	.contact-btn{
 		font-size: 11px;
+		left: 7%;
+		padding-bottom: 5px;
+		margin-left: 25px;
+	}
+
+	.github-btn{
+		font-size: 11px;
+		left: 9%;
 		padding-bottom: 5px;
 		margin-left: 25px;
 	}
@@ -156,9 +178,16 @@
 	.contact-btn {
 		font-size: 8px;
 		padding-bottom: 3px;
+		left: 15%;
 		margin-left: 0px;
 	}
-
+	
+	.github-btn {
+		font-size: 8px;
+		padding-bottom: 3px;
+		left: 19%;
+		margin-left: 0px;
+	}
 
 
 	img {
@@ -184,6 +213,15 @@
 		background-image: none;
 		width: 90%;
 		margin-left: 22px;
+		box-shadow: 0 1.5rem 4rem;
+	}
+
+	.contact-btn {
+		left: 8%;
+	}
+	
+	.github-btn {
+		left: 13%;
 	}
 
 	.skills{
@@ -198,7 +236,7 @@
 	.box {
 	    width: 255px;
 	    padding: 14px;
-	    height: 380px;
+	    height: 392px;
 	    margin: 49px;
 	}
 }}

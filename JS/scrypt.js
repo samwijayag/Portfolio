@@ -48,7 +48,7 @@ $(document).ready(function(){
     $('.js--wp-2').waypoint(function(direction){
     	$('.js--wp-2').addClass('animated fadeInRight')
     },{
-    	offset:'50%'
+    	offset:'80%'
     })
     
     $('.js--wp-3').waypoint(function(direction){
