@@ -50,6 +50,9 @@ h4{
 --------------------HEADER----------------------
 =================================================*/
 
+.header{
+	height: 117px;
+}
 
 
 .header ul{
@@ -77,13 +80,17 @@ h4{
 /*----------Sticky Nav-----------*/
 
 .sticky{
+	display: flex;
+	justify-content: center;
 	position: fixed;
-    right: 73px;
-    left: 73px;
-    margin: -14px;
+    right: 11px;
+    left: 0px;
+    margin: -13px;
     color: #ba6102d1;
-    background-color: #fff;
-    box-shadow: 0 2px 0px #ba6102;
+    background-color: #ffffffd4;
+    box-shadow: 1px 0rem 1rem #413d3a;
+    transition: all 0.3s ease;
+  	transform:translate(0, 0);
     z-index: 9999;
 }
 
