@@ -1,6 +1,6 @@
 
 /*//----colors-----//*/
-/*main : #ba6102d1*/
+/*main : #ff9c7c*/
 
 .container{
 	max-width: 1400px;
@@ -10,11 +10,10 @@
 
 body{
 	background-color: #b0b0b052;
-	background-image: url('https://previews.123rf.com/images/pokpak/pokpak1708/pokpak170800046/83364314-white-background-illustration-technology-orange-hexagonal-in-shape-.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-/*	background-image: url('https://image.freepik.com/free-vector/abstract-orange-background_1182-686.jpg')
-*/}
+	background-image:linear-gradient(162deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 71, 0, 0.56) 75%, rgba(233,57,0,1) 100%),url(https://image.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg);
+}
 
 .title-h2{
 	font-size: 2rem;
@@ -29,7 +28,7 @@ body{
 h2:after {
     display: block;
     height: 2px;
-    background-color:#ba6102d1;
+    background-color:#ff9c7c;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -74,7 +73,7 @@ h4{
 }
 
 .header li a:hover{
-    color: #ba6102d1;
+    color: #ff9c7c;
 }
 
 /*----------Sticky Nav-----------*/
@@ -104,8 +103,6 @@ h4{
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-
-
 }
 
 .home .info{
@@ -114,14 +111,14 @@ h4{
 }
 
 .square{
-	border: 25px solid #ffa94b26;
-    border-radius: 50%;
-    width: 500px;
+    width: 559px;
     height: 500px;
     position: absolute;
-    z-index: 0;
-    top: 75%;
-    left: 16%;
+    top: -5%;
+    left: 15%;
+    background-image: url('https://image.freepik.com/free-photo/colorful-powder-explosion-white-background_44314-2005.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
@@ -133,9 +130,6 @@ h4{
     z-index: 1;
     top: -28%;
     left: 67%;
-    /*background-repeat: no-repeat;
-	background-position: center;
-	background-image: url('https://image.shutterstock.com/image-vector/olive-tree-silhouette-icon-isolated-260nw-558212053.jpg')*/
 }
 
 
@@ -159,7 +153,7 @@ h4{
 }
 
 .home .info span{
-	color: #ff8400;
+	color: #ff9c7c;
 	font-size: 70px;
 }
 
@@ -178,37 +172,53 @@ h4{
 }
 
 .work-btn{
-	position: relative;
-	color: #16171b;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-decoration: none;
-	padding-bottom: 5px;
-	border-bottom: 2px solid black;
-	z-index: 1;
-	letter-spacing: 2px;
+	align-items: center;
+    border: 1px solid #616161;
+    border-radius: 4px;
+    color: #616161;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: .875rem;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 1.75;
+    margin: 0;
+    min-width: 64px;
+    outline: none;
+    padding: 5px 16px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
 }
 
 .work-btn:hover{
-	color: #ba6102d1;
-	border-bottom: 2px solid #ba6102d1;
+	background-color: #61616138;	
 }
 
 .resume-btn{
-	position: relative;
-	color: #16171b;
-	margin-left: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-decoration: none;
-	padding-bottom: 5px;
-	border-bottom: 2px solid black;
-	letter-spacing: 2px
+    border: 1px solid rgba(253,90,37,.5);
+    border-radius: 4px;
+    color: #fd5a25;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: .875rem;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 1.75;
+    margin: 0 10px;
+    min-width: 64px;
+    outline: none;
+    padding: 5px 16px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
 }
 
 .resume-btn:hover{
-	color: #ba6102d1;
-	border-bottom: 2px solid #ba6102d1;
+	background-color: #ff9c7c21;
+	/*border-bottom: 2px solid #ff9c7c;*/
 }
 
 
@@ -222,7 +232,7 @@ h4{
 
 
 .color-box{
-	background-image: linear-gradient( 107deg, rgb(233, 233, 233) 22%, #c89a68 63%, #ffffff00 50%), url(../images/background/user-image1.jpg);
+	background-image: linear-gradient( 107deg, #ff9c7c 22%, rgb(233, 233, 233) 63%, #ffffff00 50%), url(../images/background/user-image1.jpg);
     background-position: right;
     border-radius: 5px;
     margin: 0 30px;
@@ -270,8 +280,8 @@ h4{
 }
 
 .github-btn:hover, .contact-btn:hover {
-	color: #ba6102d1;
-	border-bottom: 2px solid #ba6102d1;
+	color: white;
+	border-bottom: 2px solid white;
 }
 
 /*=================================================
@@ -282,7 +292,6 @@ h4{
 
 
 img{
-	/*width: 333px;*/	
  	width:304px;
     height: 153px;
 	transition: all 1s ease-out;
@@ -301,7 +310,7 @@ img:hover{
     padding: 19px;
     height: 419px;
     margin: 32px;
-    background-color: #b05b0047;
+    background-color: #ff9c7c8c;
     border-radius: 19px;
     transition: all .195s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 1px 2rem 4rem rgba(0, 0, 0, 0.15)
@@ -333,7 +342,7 @@ img:hover{
 }
 
 .project-text a:hover{
-	color: #ba6102d1;
+	color: #ff9c7c;
 }
 
 .project-text p{
@@ -359,7 +368,7 @@ img:hover{
 }
 
 .project-text .fa-github:hover{
-	color: #ba6102d1;
+	color: #ff9c7c;
 }
 
 
@@ -368,7 +377,8 @@ img:hover{
 =================================================*/
 .skills{
     padding: 100px;
-    margin-top: 55px;
+    margin-top: 37px;
+    background-color: #f9f8f8;
 }
 
 .skills ul{
@@ -384,7 +394,7 @@ img:hover{
     font-weight: bold;
     padding: 1rem;
     flex-basis: 6rem;
-    background-color: #ba610254;
+    background-color: #ff9c7c;
     border: 1px solid #ba6102d1;
     border-radius: 1.5rem;
     margin: 0.5rem;
@@ -397,7 +407,7 @@ img:hover{
 .contact {
 	padding: 53px;
 	margin-top: 40px;
-	background-color: white;
+	background-color: #ebe9e952;
 	text-align: center;
 	font-size: 25px;
 }
@@ -423,7 +433,7 @@ img:hover{
 }
 
 .contactIcon:hover{
-	color: #ba6102d1;
+	color: #ff9c7c;
 }
 
 
@@ -434,7 +444,7 @@ img:hover{
 
 .contact i:hover{
 	font-size: 40px;
-	color: #ba6102d1;
+	color: #ff9c7c;
 }
 
 /*=================================================
