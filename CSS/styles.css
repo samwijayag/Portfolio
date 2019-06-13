@@ -12,7 +12,7 @@ body{
 	background-color: #b0b0b052;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image:linear-gradient(162deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 71, 0, 0.56) 75%, rgba(233,57,0,1) 100%),url(https://image.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg);
+	background-image:linear-gradient(162deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 71, 0, 0.56) 75%, rgba(233,57,0,1) 100%)
 }
 
 .title-h2{
@@ -29,7 +29,7 @@ h2:after {
     display: block;
     height: 2px;
     background-color:#ff9c7c;
-    content: " ";
+    content: "";
     width: 100px;
     margin: 0 auto;
     margin-top: 10px;
@@ -37,7 +37,7 @@ h2:after {
 
 h4{
 	-ms-grid-row-align: start;
-	    align-self: start;
+	align-self: start;
     letter-spacing: 2px;
     font-size: 14px;
     margin-top: 7px
@@ -53,6 +53,9 @@ h4{
 	height: 117px;
 }
 
+nav{
+    background-color: tomato;
+}
 
 .header ul{
 	display: flex;
@@ -67,13 +70,13 @@ h4{
 
 .header li a{
 	text-decoration: none;
-	margin: 30px 0px;
+	margin: 15px 10px;
     font-size: 17px;
-    color: #050404;
+    color: white;
 }
 
 .header li a:hover{
-    color: #ff9c7c;
+    color: #616161;
 }
 
 /*----------Sticky Nav-----------*/
@@ -85,13 +88,16 @@ h4{
     right: 11px;
     left: 0px;
     margin: -13px;
-    color: #ba6102d1;
-    background-color: #ffffffd4;
+    color: white;
+    background-color: tomato;
     box-shadow: 1px 0rem 1rem #413d3a;
     transition: all 0.3s ease;
-  	transform:translate(0, 0);
+  	-webkit-transform:translate(0, 0);
+  	        transform:translate(0, 0);
     z-index: 9999;
 }
+
+
 
 /*=================================================
 --------------------home SECTION-----------------------
@@ -108,22 +114,28 @@ h4{
 .home .info{
 	padding: 15px;
 	position: relative;
+	z-index: 1;
 }
 
 .square{
-    width: 559px;
-    height: 500px;
-    position: absolute;
-    top: -5%;
-    left: 15%;
+	position: absolute;
+	z-index: -1;	
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130%;
+    background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: contain;
     background-image: url('https://image.freepik.com/free-photo/colorful-powder-explosion-white-background_44314-2005.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
+
 }
 
 
 .square2{
-	border: 19px solid #5f5f5f0f;
+	border: 18px solid #5f5f5f26;
     width: 355px;
     height: 379px;
     position: absolute;
@@ -218,7 +230,6 @@ h4{
 
 .resume-btn:hover{
 	background-color: #ff9c7c21;
-	/*border-bottom: 2px solid #ff9c7c;*/
 }
 
 
@@ -290,17 +301,14 @@ h4{
 
 /*-----------GRID---------------*/
 
-
 img{
  	width:304px;
     height: 153px;
 	transition: all 1s ease-out;
 	border-radius: 12px;
-	opacity:0.6 !important;
 }
 
 img:hover{
-	opacity:1 !important;
 	-webkit-transform: translate(0, -10px);
 	        transform: translate(0, -10px)
 }
@@ -379,6 +387,7 @@ img:hover{
     padding: 100px;
     margin-top: 37px;
     background-color: #f9f8f8;
+
 }
 
 .skills ul{
@@ -410,6 +419,31 @@ img:hover{
 	background-color: #ebe9e952;
 	text-align: center;
 	font-size: 25px;
+}
+
+.contact-list{
+	position: relative;
+	z-index: 1;
+}
+
+.contact-list .city{
+	position: absolute;
+	z-index: -1;
+	opacity: 0.1;	
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130%;
+	background-image: url(https://storage.needpix.com/rsynced_images/city-1117433_1280.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: contain;
+}
+
+.contact-list{
+	z-index: 6;
 }
 
 .contact-list h1{
@@ -486,25 +520,22 @@ footer{
 /*Scroll up button*/
 
 .scrollup {
-    width: 41px;
-    top: 45%;
+    top: 70%;
     height: 49px;
     position: fixed;
-    bottom: 50px;
     right: 64px;
     display: none;
-    background: url('../images/icons/scrolltop.png') no-repeat;
 }	
 
 /*css animations for icons*/
 .bounce{
-	-moz-animation: bounce 2s infinite;
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 3s infinite;
 }
 
 .pulse {
 	box-shadow: 0 1 0 rgba(104,189,70, 0.7);
-	animation: pulse 1s infinite;
+	-webkit-animation: pulse 1s infinite;
+	        animation: pulse 1s infinite;
 }
 
