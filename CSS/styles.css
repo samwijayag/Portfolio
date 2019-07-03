@@ -306,12 +306,13 @@ img{
     height: 153px;
 	transition: all 1s ease-out;
 	border-radius: 12px;
+    opacity: 0.7;
 }
-
+/*
 img:hover{
 	-webkit-transform: translate(0, -10px);
 	        transform: translate(0, -10px)
-}
+}*/
 
 .box {
 	width: 339px;
@@ -320,15 +321,23 @@ img:hover{
     margin: 32px;
     background-color: #ff9c7c8c;
     border-radius: 19px;
-    transition: all .195s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all .180s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 1px 2rem 4rem rgba(0, 0, 0, 0.15)
 }
 
 .box:hover {
 	background-color: white;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.4);
    	-webkit-transform: scale(0.97);
    	        transform: scale(0.97);
     transition: background-color 500ms linear;
+}
+
+.box:hover img{
+    -webkit-transform: translate(0, -10px);
+    transform: translate(0, -10px);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.4);
+    opacity: 1;
 }
 
 .projects-grid{
